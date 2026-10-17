@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frimps Drilling Company Ltd. – Clean Water, Better Tomorrow</title>
+  <meta name="description" content="Frimps Drilling Company Ltd. – Ghana's leading borehole drilling, geological survey, water treatment, and general pumping company. Clean Water, Better Tomorrow." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Montserrat:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo">
+        <div class="logo-icon logo-img-wrap">
+          <img src="images/logo.png" alt="Frimps Drilling Company Ltd. Logo" class="site-logo-img" />
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">FRIMPS</span>
+          <span class="logo-sub">DRILLING COMPANY LTD.</span>
+        </div>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#equipment">Fleet & Equipment</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="tel:0245993803" class="btn btn-primary nav-cta">Call Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-bg-image" style="background-image: url('images/hero-rig.jpg');"></div>
+      <div class="hero-bg-overlay"></div>
+      <div class="water-wave wave1"></div>
+      <div class="water-wave wave2"></div>
+      <div class="water-wave wave3"></div>
+      <div class="hero-particles" id="particles"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <div class="hero-badge">
+          <span class="badge-dot"></span> Ghana Wide Service &bull; Licensed &amp; Certified
+        </div>
+        <h1 class="hero-title">
+          <span class="highlight">Clean Water,</span><br/>Better Tomorrow
+        </h1>
+        <div class="hero-tagline-strip">
+          <span class="tag-pillar">QUALITY SERVICES</span>
+          <span class="tag-sep">&bull;</span>
+          <span class="tag-pillar">LASTING SOLUTIONS</span>
+        </div>
+        <p class="hero-desc">
+          Frimps Drilling Company Ltd. provides cutting-edge borehole drilling, high-precision geological surveys, water filtration systems, and heavy pumping infrastructure across all 16 regions of Ghana. Your water is our priority.
+        </p>
+        <div class="hero-actions">
+          <a href="tel:0245993803" class="btn btn-primary btn-lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.08 6.08l1.51-1.51a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Call: 0245993803
+          </a>
+          <a href="https://wa.me/233557590362?text=Hello%20Frimps%20Drilling,%20I%20would%20like%20to%20request%20a%20borehole%20drilling%20quote." target="_blank" class="btn btn-whatsapp btn-lg">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp Us
+          </a>
+          <a href="#equipment" class="btn btn-outline btn-lg">Explore Fleet</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num">500+</span>
+            <span class="stat-label">Boreholes Drilled</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">100%</span>
+            <span class="stat-label">Yield Satisfaction</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">16</span>
+            <span class="stat-label">Ghana Regions</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">10+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-image-card">
+          <div class="hero-img-box">
+            <img src="images/hero-rig.jpg" alt="Frimps Drilling Ashok Leyland Heavy Mobile Borehole Rig" class="hero-main-img" />
+            <div class="hero-img-overlay"></div>
+            
+            <div class="hero-img-badges">
+              <span class="hero-card-tag badge-gold">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                Flagship Machinery
+              </span>
+              <span class="hero-card-tag badge-dark">
+                <span class="beacon-dot"></span> Ghana Wide Operation
+              </span>
+            </div>
+
+            <button class="hero-zoom-btn equip-zoom-btn" data-img="images/hero-rig.jpg" data-title="Ashok Leyland 6x4 Heavy-Duty Mobile Drill Rig" data-tag="Flagship Rig" data-desc="Frimps Drilling Company flagship mobile drilling platform. Outfitted with high-pressure ELGI air compressor and deep-stratum hydraulic mast engineered for high-yield groundwater extraction across Ghana." aria-label="View Full-Size Rig Image">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              <span>Inspect Rig Full Screen</span>
+            </button>
+
+            <div class="hero-img-caption">
+              <div class="caption-sub">HEAVY-DUTY MOBILE DRILLING UNIT</div>
+              <h4>Ashok Leyland 6x4 Deep Well Rig</h4>
+              <p class="caption-specs">ELGI High-Pressure Compressor &bull; DTH &amp; Rotary Mast &bull; Deep Rock Penetration</p>
+            </div>
+          </div>
+
+          <div class="floating-badge badge-top">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            100% Water Yield Guaranteed
+          </div>
+
+          <div class="hero-floating-pill">
+            <div class="pill-pulse"></div>
+            <span>Ready for Immediate Site Deployment</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#services" class="scroll-down" aria-label="Scroll down">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
+    </a>
+  </section>
+
+  <!-- ===== TRUST PILLARS BAR (FROM FLYER) ===== -->
+  <section class="trust-strip">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item">
+          <div class="trust-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FFD700" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <div class="trust-text">
+            <h4>ON-TIME SERVICE</h4>
+            <p>Prompt On-Site Deployment</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FFD700" stroke-width="2.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <div class="trust-text">
+            <h4>EXPERIENCED TEAM</h4>
+            <p>Certified Geologists &amp; Engineers</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FFD700" stroke-width="2.5"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14"/></svg>
+          </div>
+          <div class="trust-text">
+            <h4>MODERN EQUIPMENT</h4>
+            <p>CSB1000 &amp; Rotary Rig Fleet</p>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon-box">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#FFD700" stroke-width="2.5"><path d="M14 9V5a3 3 0 00-3-3l-4 9v11h11.28a2 2 0 002-1.7l1.38-9a2 2 0 00-2-2.3H14z"/><path d="M7 22H4a2 2 0 01-2-2v-7a2 2 0 012-2h3"/></svg>
+          </div>
+          <div class="trust-text">
+            <h4>100% SATISFACTION</h4>
+            <p>Guaranteed Water Yield</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Our Services</span>
+        <h2 class="section-title">Quality Services, <span class="highlight">Lasting Solutions</span></h2>
+        <p class="section-desc">We deliver turnkey water solutions across Ghana using modern drilling rigs, precision geological testing, and proven water purification systems.</p>
+      </div>
+
+      <!-- Circular Field Operations Row (Directly from Flyer) -->
+      <div class="field-operations-wrap" data-reveal>
+        <div class="field-ops-intro">
+          <span class="ops-badge">PROVEN FIELD PERFORMANCE</span>
+          <h3>Our 4 Core Disciplines in Action</h3>
+        </div>
+        <div class="field-circles-grid">
+          <div class="field-circle-card equip-zoom-btn" data-img="images/action-survey.jpg" data-title="Geological Ground Survey" data-tag="Geological Survey" data-desc="Professional hydrogeological site assessment identifying high-yield water table coordinates using advanced optical & electronic survey gear.">
+            <div class="circle-avatar-wrap">
+              <img src="images/service-survey-circle.png" alt="Geological Surveying in Action" />
+              <div class="circle-hover-zoom">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </div>
+            </div>
+            <span class="circle-name">Geological Survey</span>
+          </div>
+
+          <div class="field-circle-card equip-zoom-btn" data-img="images/action-drilling.jpg" data-title="High-Yield Borehole Drilling Eruption" data-tag="Borehole Drilling" data-desc="Heavy rotary drill rig striking deep underground aquifers, producing an impressive high-pressure fountain of clean water.">
+            <div class="circle-avatar-wrap">
+              <img src="images/service-drilling-circle.png" alt="Borehole Drilling Fountain" />
+              <div class="circle-hover-zoom">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </div>
+            </div>
+            <span class="circle-name">Borehole Drilling</span>
+          </div>
+
+          <div class="field-circle-card equip-zoom-btn" data-img="images/action-treatment.jpg" data-title="Industrial Water Treatment Plant" data-tag="Water Treatment" data-desc="Commercial filtration vessels, softening media, and chemical disinfection plants ensuring WHO potable drinking standards.">
+            <div class="circle-avatar-wrap">
+              <img src="images/service-treatment-circle.png" alt="Water Treatment Cylinders" />
+              <div class="circle-hover-zoom">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </div>
+            </div>
+            <span class="circle-name">Water Treatment</span>
+          </div>
+
+          <div class="field-circle-card equip-zoom-btn" data-img="images/action-pumping.jpg" data-title="High-Volume General Pumping" data-tag="General Pumping" data-desc="Commercial and agricultural pumping system discharging steady, high-volume groundwater into storage and distribution lines.">
+            <div class="circle-avatar-wrap">
+              <img src="images/service-pumping-circle.png" alt="General Pumping Discharge" />
+              <div class="circle-hover-zoom">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+              </div>
+            </div>
+            <span class="circle-name">General Pumping</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 Service Detail Cards with Matching Action Imagery -->
+      <div class="services-grid">
+
+        <div class="service-card" data-index="0">
+          <div class="service-card-media">
+            <img src="images/action-survey.jpg" alt="Geological Survey Team" />
+            <span class="media-tag">Site Assessment</span>
+          </div>
+          <div class="service-icon-wrap" style="--c:#0047AB">
+            <svg width="36" height="36" viewBox="0 0 64 64" fill="none">
+              <circle cx="32" cy="32" r="32" fill="#0047AB" opacity="0.12"/>
+              <path d="M32 14l-4 8h-8l6 6-2 8 8-4 8 4-2-8 6-6h-8l-4-8z" fill="#0047AB"/>
+              <path d="M20 44c2-4 6-8 12-8s10 4 12 8" stroke="#FFD700" stroke-width="2.5" stroke-linecap="round"/>
+              <circle cx="32" cy="30" r="4" fill="#FFD700"/>
+            </svg>
+          </div>
+          <h3>Geological Survey</h3>
+          <p>Scientific ground assessments to pinpoint exact subterranean aquifers, assess rock layers, and ensure maximum water yield before drilling begins.</p>
+          <ul class="service-features">
+            <li>Hydrogeological Resistivity Testing</li>
+            <li>Ground Penetrating Geophysics</li>
+            <li>Exact Aquifer Depth Determination</li>
+          </ul>
+          <a href="#contact" class="service-link">Request Survey &rarr;</a>
+        </div>
+
+        <div class="service-card featured" data-index="1">
+          <div class="service-card-media">
+            <img src="images/action-drilling.jpg" alt="Borehole Drilling Geyser Eruption" />
+            <span class="media-tag">CSB1000 Rig in Action</span>
+          </div>
+          <div class="featured-badge">Most Popular</div>
+          <div class="service-icon-wrap" style="--c:#0070CC">
+            <svg width="36" height="36" viewBox="0 0 64 64" fill="none">
+              <circle cx="32" cy="32" r="32" fill="#0070CC" opacity="0.12"/>
+              <rect x="28" y="12" width="8" height="30" rx="4" fill="#0070CC"/>
+              <rect x="22" y="38" width="20" height="4" rx="2" fill="#0070CC"/>
+              <path d="M32 42 C32 42 28 46 28 50 C28 52.2 29.8 54 32 54 C34.2 54 36 52.2 36 50 C36 46 32 42 32 42Z" fill="#60C0FF"/>
+              <circle cx="32" cy="20" r="4" fill="#FFD700"/>
+            </svg>
+          </div>
+          <h3>Borehole Drilling</h3>
+          <p>Deep-aquifer borehole drilling utilizing our high-pressure CSB1000 and rotary rigs. Designed for residential estates, factories, and farms across Ghana.</p>
+          <ul class="service-features">
+            <li>Hard Rock DTH &amp; Rotary Penetration</li>
+            <li>High-Grade PVC/Steel Casing</li>
+            <li>Gravel Packing &amp; Well Development</li>
+          </ul>
+          <a href="#equipment" class="service-link">View Drilling Fleet &rarr;</a>
+        </div>
+
+        <div class="service-card" data-index="2">
+          <div class="service-card-media">
+            <img src="images/action-treatment.jpg" alt="Water Treatment Filtration Vessels" />
+            <span class="media-tag">Clean &amp; Pure</span>
+          </div>
+          <div class="service-icon-wrap" style="--c:#00A86B">
+            <svg width="36" height="36" viewBox="0 0 64 64" fill="none">
+              <circle cx="32" cy="32" r="32" fill="#00A86B" opacity="0.12"/>
+              <rect x="18" y="20" width="10" height="24" rx="2" fill="#00A86B"/>
+              <rect x="36" y="20" width="10" height="24" rx="2" fill="#00A86B"/>
+              <path d="M28 28h8M28 34h8" stroke="#FFD700" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M20 44h24" stroke="#00A86B" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M28 20c0-2.2 1.8-4 4-4s4 1.8 4 4" stroke="#00A86B" stroke-width="2"/>
+            </svg>
+          </div>
+          <h3>Water Treatment</h3>
+          <p>Complete water purification plants tailored to your borehole test results. Removing iron, acidity, odor, and bacteria for crystal-clean drinking water.</p>
+          <ul class="service-features">
+            <li>Multi-Media &amp; Carbon Filtration</li>
+            <li>Iron &amp; Heavy Mineral Removal</li>
+            <li>UV &amp; Chemical Disinfection Plants</li>
+          </ul>
+          <a href="#contact" class="service-link">Get a Quote &rarr;</a>
+        </div>
+
+        <div class="service-card" data-index="3">
+          <div class="service-card-media">
+            <img src="images/action-pumping.jpg" alt="High Capacity Pumping System" />
+            <span class="media-tag">High-Flow Delivery</span>
+          </div>
+          <div class="service-icon-wrap" style="--c:#0057A8">
+            <svg width="36" height="36" viewBox="0 0 64 64" fill="none">
+              <circle cx="32" cy="32" r="32" fill="#0057A8" opacity="0.12"/>
+              <rect x="14" y="26" width="36" height="14" rx="4" fill="#0057A8"/>
+              <rect x="46" y="30" width="6" height="6" rx="1" fill="#FFD700"/>
+              <path d="M32 26v-8M26 20h12" stroke="#0057A8" stroke-width="2.5" stroke-linecap="round"/>
+              <path d="M20 40c0 0 4-4 12-4s12 4 12 4" stroke="#60C0FF" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <h3>General Pumping</h3>
+          <p>Supply, setup, and maintenance of high-volume submersible and booster pumps. Complete plumbing, pressure control, and automated storage hookup.</p>
+          <ul class="service-features">
+            <li>Submersible Pump Sizing &amp; Fitting</li>
+            <li>Solar-Powered Pumping Systems</li>
+            <li>Automated Tank Level Controls</li>
+          </ul>
+          <a href="#equipment" class="service-link">View In-Stock Pumps &rarr;</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EQUIPMENT & FLEET SHOWCASE ===== -->
+  <section class="equipment" id="equipment">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Heavy-Duty Fleet & In-Stock Gear</span>
+        <h2 class="section-title">Our Machinery & <span class="highlight">Equipment Fleet</span></h2>
+        <p class="section-desc">We deploy heavy-duty drilling rigs, high-grade Italian-engineered submersible pumps, and genuine brand inventory ready for immediate mobilization anywhere in Ghana.</p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="equipment-filters">
+        <button class="filter-btn active" data-filter="all">All Equipment (6)</button>
+        <button class="filter-btn" data-filter="rigs">Drilling Rigs (3)</button>
+        <button class="filter-btn" data-filter="pumps">Submersible Pumps (2)</button>
+        <button class="filter-btn" data-filter="stock">Warehouse Inventory (1)</button>
+      </div>
+
+      <!-- Equipment Cards Grid -->
+      <div class="equipment-grid">
+
+        <!-- Item 1: Drill Rig Truck -->
+        <div class="equipment-card" data-category="rigs" data-reveal>
+          <div class="equipment-img-box">
+            <img src="images/drill-truck.jpg" alt="Ashok Leyland 6x4 Heavy-Duty Mobile Drill Rig" loading="lazy" />
+            <span class="equip-badge badge-gold">Flagship Rig</span>
+            <div class="equip-overlay">
+              <button class="equip-zoom-btn" data-img="images/drill-truck.jpg" data-title="Ashok Leyland 6x4 Heavy-Duty Mobile Drill Rig" data-tag="Flagship Rig" data-desc="Heavy-duty carrier outfitted with onboard high-pressure compressor and deep-stratum CSB mast capable of penetrating tough subterranean rock formations anywhere in Ghana." aria-label="View large photo">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>View Full Size</span>
+              </button>
+            </div>
+          </div>
+          <div class="equipment-info">
+            <div class="equip-meta">
+              <span class="equip-category">Drilling Rig Fleet</span>
+              <span class="equip-status"><span class="status-dot"></span> Ready For Site</span>
+            </div>
+            <h4>Ashok Leyland 6x4 Mobile Drill Rig</h4>
+            <p>Our premier multi-axle drilling platform designed for rapid deployment, high-torque rotary penetration, and deep-aquifer exploration.</p>
+            <div class="equip-specs">
+              <span class="spec-pill">DTH Hammer & Rotary</span>
+              <span class="spec-pill">Deep Rock Penetration</span>
+              <span class="spec-pill">Ghana-Wide Range</span>
+            </div>
+            <div class="equip-actions">
+              <a href="https://wa.me/233557590362?text=Hello%20Frimps%20Drilling,%20I%20am%20inquiring%20about%20your%20Ashok%20Leyland%20Mobile%20Drill%20Rig%20services." target="_blank" class="btn btn-whatsapp btn-sm">
+                Inquire on WhatsApp
+              </a>
+              <a href="tel:0245993803" class="btn btn-outline-dark btn-sm">Call Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2: Orange Rig on Site -->
+        <div class="equipment-card" data-category="rigs" data-reveal>
+          <div class="equipment-img-box">
+            <img src="images/drill-rig-orange.jpg" alt="Hydraulic Deep-Stratum Borehole Rig On-Site" loading="lazy" />
+            <span class="equip-badge badge-blue">On-Site Rig</span>
+            <div class="equip-overlay">
+              <button class="equip-zoom-btn" data-img="images/drill-rig-orange.jpg" data-title="Hydraulic Deep-Stratum Borehole Rig On-Site" data-tag="On-Site Rig" data-desc="Heavy hydraulic drilling mast actively deployed on residential and commercial sites, offering stabilized hydraulic jacks and high-precision vertical drilling." aria-label="View large photo">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>View Full Size</span>
+              </button>
+            </div>
+          </div>
+          <div class="equipment-info">
+            <div class="equip-meta">
+              <span class="equip-category">Drilling Rig Fleet</span>
+              <span class="equip-status"><span class="status-dot"></span> Active Operations</span>
+            </div>
+            <h4>Hydraulic Deep-Stratum Borehole Rig</h4>
+            <p>Vertical hydraulic system built for challenging tight spaces, compound drilling, and penetrating hard granite layers with zero compromise on stability.</p>
+            <div class="equip-specs">
+              <span class="spec-pill">Hydraulic Levelling</span>
+              <span class="spec-pill">High Precision Mast</span>
+              <span class="spec-pill">Tight Access</span>
+            </div>
+            <div class="equip-actions">
+              <a href="https://wa.me/233557590362?text=Hello%20Frimps%20Drilling,%20I%20am%20inquiring%20about%20your%20Hydraulic%20Borehole%20Drilling%20Rig." target="_blank" class="btn btn-whatsapp btn-sm">
+                Inquire on WhatsApp
+              </a>
+              <a href="tel:0245993803" class="btn btn-outline-dark btn-sm">Call Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3: CSB1000 Rig Carrier (from Flyer) -->
+        <div class="equipment-card" data-category="rigs" data-reveal>
+          <div class="equipment-img-box">
+            <img src="images/csb1000-rig-truck.jpg" alt="CSB1000 Heavy Mobile Borehole Rig Carrier" loading="lazy" />
+            <span class="equip-badge badge-gold">CSB1000 Fleet</span>
+            <div class="equip-overlay">
+              <button class="equip-zoom-btn" data-img="images/csb1000-rig-truck.jpg" data-title="CSB1000 Heavy Mobile Borehole Rig" data-tag="CSB1000 Fleet" data-desc="Heavy-duty mobile drilling rig carrier as featured on the official Frimps Drilling Company fleet, engineered for high-pressure bedrock drilling and continuous aquifer yield." aria-label="View large photo">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>View Full Size</span>
+              </button>
+            </div>
+          </div>
+          <div class="equipment-info">
+            <div class="equip-meta">
+              <span class="equip-category">Drilling Rig Fleet</span>
+              <span class="equip-status"><span class="status-dot"></span> Ready For Site</span>
+            </div>
+            <h4>CSB1000 Heavy Mobile Rig Carrier</h4>
+            <p>High-torque multi-axle drilling platform designed for rapid setup, deep vertical boring, and striking deep subterranean aquifers across all terrain in Ghana.</p>
+            <div class="equip-specs">
+              <span class="spec-pill">CSB1000 Mast</span>
+              <span class="spec-pill">High Torque Rotary</span>
+              <span class="spec-pill">Ghana-Wide Deployment</span>
+            </div>
+            <div class="equip-actions">
+              <a href="https://wa.me/233557590362?text=Hello%20Frimps%20Drilling,%20I%20am%20inquiring%20about%20your%20CSB1000%20Borehole%20Drilling%20Rig." target="_blank" class="btn btn-whatsapp btn-sm">
+                Inquire on WhatsApp
+              </a>
+              <a href="tel:0245993803" class="btn btn-outline-dark btn-sm">Call Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3: Superdaeb 4SKM100 Pump -->
+        <div class="equipment-card" data-category="pumps" data-reveal>
+          <div class="equipment-img-box">
+            <img src="images/submersible-pump.jpg" alt="Superdaeb 4SKM100 Submersible Deep Well Pump" loading="lazy" />
+            <span class="equip-badge badge-green">Italy Technology</span>
+            <div class="equip-overlay">
+              <button class="equip-zoom-btn" data-img="images/submersible-pump.jpg" data-title="Superdaeb 4SKM100 Deep Well Pump (Italy Tech)" data-tag="Italy Technology" data-desc="Complete deep well pump kit featuring Italy Technology engineering, integrated control switchbox, thermic overload protection, and reliable 220V continuous operation." aria-label="View large photo">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>View Full Size</span>
+              </button>
+            </div>
+          </div>
+          <div class="equipment-info">
+            <div class="equip-meta">
+              <span class="equip-category">Submersible Pumps</span>
+              <span class="equip-status in-stock"><span class="status-dot"></span> In Stock (Brand New)</span>
+            </div>
+            <h4>Superdaeb 4SKM100 Submersible Pump</h4>
+            <p>Premium 4-inch borehole submersible pump equipped with Italian tech components and a dedicated starter switchbox for residential and estate water systems.</p>
+            <div class="equip-specs">
+              <span class="spec-pill">Control Box Included</span>
+              <span class="spec-pill">Italy Technology</span>
+              <span class="spec-pill">Thermal Protection</span>
+            </div>
+            <div class="equip-actions">
+              <a href="https://wa.me/233557590362?text=Hello%20Frimps%20Drilling,%20I%20want%20to%20order/inquire%20about%20the%20Superdaeb%204SKM100%20Submersible%20Pump." target="_blank" class="btn btn-whatsapp btn-sm">
+                Inquire on WhatsApp
+              </a>
+              <a href="tel:0245993803" class="btn btn-outline-dark btn-sm">Call Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4: Stainless Steel Screw Pumps -->
+        <div class="equipment-card" data-category="pumps" data-reveal>
+          <div class="equipment-img-box">
+            <img src="images/screw-pumps.jpg" alt="Stainless Steel Submersible Deep Well Screw Pump" loading="lazy" />
+            <span class="equip-badge badge-blue">Stainless Steel</span>
+            <div class="equip-overlay">
+              <button class="equip-zoom-btn" data-img="images/screw-pumps.jpg" data-title="Stainless Steel Submersible Screw Pump Set" data-tag="Stainless Steel" data-desc="Heavy corrosion-resistant stainless steel pump with heavy-gauge waterproof submersible cable, designed for high pressure heads and long continuous pumping cycles." aria-label="View large photo">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>View Full Size</span>
+              </button>
+            </div>
+          </div>
+          <div class="equipment-info">
+            <div class="equip-meta">
+              <span class="equip-category">Submersible Pumps</span>
+              <span class="equip-status in-stock"><span class="status-dot"></span> In Stock</span>
+            </div>
+            <h4>Stainless Steel Submersible Screw Pumps</h4>
+            <p>Engineered for high-lift deep wells and boreholes. Features stainless casing, abrasion-resistant internal screw, and heavy duty submersible power cord.</p>
+            <div class="equip-specs">
+              <span class="spec-pill">High Head Delivery</span>
+              <span class="spec-pill">Corrosion Proof</span>
+              <span class="spec-pill">Long Duty Cycle</span>
+            </div>
+            <div class="equip-actions">
+              <a href="https://wa.me/233557590362?text=Hello%20Frimps%20Drilling,%20I%20want%20pricing%20on%20the%20Stainless%20Steel%20Submersible%20Screw%20Pumps." target="_blank" class="btn btn-whatsapp btn-sm">
+                Inquire on WhatsApp
+              </a>
+              <a href="tel:0245993803" class="btn btn-outline-dark btn-sm">Call Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 5: Doyin Warehouse Stock -->
+        <div class="equipment-card" data-category="stock" data-reveal>
+          <div class="equipment-img-box">
+            <img src="images/pump-stock.jpg" alt="Doyin Submersible Pumps Warehouse Stock" loading="lazy" />
+            <span class="equip-badge badge-gold">Factory Direct Stock</span>
+            <div class="equip-overlay">
+              <button class="equip-zoom-btn" data-img="images/pump-stock.jpg" data-title="Doyin Submersible Pumps Genuine Warehouse Stock" data-tag="Factory Direct Stock" data-desc="Complete in-house stock of genuine Doyin pumps, factory-packaged and strapped, ready for commercial contractors, domestic borehole owners, and retail supply." aria-label="View large photo">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg>
+                <span>View Full Size</span>
+              </button>
+            </div>
+          </div>
+          <div class="equipment-info">
+            <div class="equip-meta">
+              <span class="equip-category">Warehouse Inventory</span>
+              <span class="equip-status in-stock"><span class="status-dot"></span> Ready For Dispatch</span>
+            </div>
+            <h4>Genuine Doyin Pump Inventory</h4>
+            <p>We maintain full wholesale and retail inventory of brand-new, factory-sealed Doyin pumps, ensuring no project delays and genuine manufacturer replacement parts.</p>
+            <div class="equip-specs">
+              <span class="spec-pill">100% Genuine Doyin</span>
+              <span class="spec-pill">Factory Strapped</span>
+              <span class="spec-pill">Immediate Supply</span>
+            </div>
+            <div class="equip-actions">
+              <a href="https://wa.me/233557590362?text=Hello%20Frimps%20Drilling,%20I%20want%20to%20order%20genuine%20Doyin%20Pumps%20from%20your%20stock." target="_blank" class="btn btn-whatsapp btn-sm">
+                Inquire on WhatsApp
+              </a>
+              <a href="tel:0245993803" class="btn btn-outline-dark btn-sm">Call Now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section class="why-us" id="why-us">
+    <div class="why-bg-shape"></div>
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-tag">Why Choose Us</span>
+        <h2 class="section-title">The Frimps <span class="highlight-gold">Difference</span></h2>
+        <p class="section-desc" style="color:rgba(255,255,255,0.75)">Trusted across Ghana for delivering reliable water solutions with professionalism and quality.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#FFD700" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h4>On-Time Service</h4>
+          <p>We value your time. Our teams are deployed on schedule and projects are delivered within agreed timelines — always.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#FFD700" stroke-width="2"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+          </div>
+          <h4>Experienced Team</h4>
+          <p>Our skilled geologists, engineers, and technicians bring years of hands-on experience to every project across Ghana.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#FFD700" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14"/><path d="M15.54 8.46a5 5 0 010 7.07M8.46 8.46a5 5 0 000 7.07"/></svg>
+          </div>
+          <h4>Modern Equipment</h4>
+          <p>We use state-of-the-art drilling rigs, survey instruments, and water treatment systems ensuring precision and efficiency on every job.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon">
+            <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#FFD700" stroke-width="2"><path d="M14 9V5a3 3 0 00-3-3l-4 9v11h11.28a2 2 0 002-1.7l1.38-9a2 2 0 00-2-2.3H14z"/><path d="M7 22H4a2 2 0 01-2-2v-7a2 2 0 012-2h3"/></svg>
+          </div>
+          <h4>100% Customer Satisfaction</h4>
+          <p>Every project is completed to the highest standard. We don't stop until you're fully satisfied with the results and water quality.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCESS ===== -->
+  <section class="process" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">How We Work</span>
+        <h2 class="section-title">Our <span class="highlight">Simple Process</span></h2>
+        <p class="section-desc">From consultation to completion — we handle everything for you.</p>
+      </div>
+      <div class="process-steps">
+        <div class="process-line"></div>
+        <div class="step">
+          <div class="step-num">01</div>
+          <div class="step-content">
+            <h4>Consultation & Site Assessment</h4>
+            <p>We visit your site, understand your water needs, and conduct a professional geological assessment.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <div class="step-content">
+            <h4>Survey & Planning</h4>
+            <p>Our team performs a detailed geological survey to determine the optimal drilling location and depth.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <div class="step-content">
+            <h4>Drilling & Installation</h4>
+            <p>We mobilise our modern equipment and drill your borehole or install your water system efficiently.</p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">04</div>
+          <div class="step-content">
+            <h4>Testing & Handover</h4>
+            <p>Water quality is tested, the system is fully commissioned, and we hand over clean, reliable water to you.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COVERAGE BANNER ===== -->
+  <section class="coverage-banner">
+    <div class="container coverage-inner">
+      <div class="coverage-icon">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#FFD700" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      </div>
+      <div class="coverage-text">
+        <h3>Ghana Wide Service</h3>
+        <p>We operate across all regions of Ghana — from Accra to the Northern Region. Wherever you are, we bring clean water to you.</p>
+      </div>
+      <a href="#contact" class="btn btn-primary">Request Service</a>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT / CTA ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-wrap">
+        <div class="contact-info">
+          <span class="section-tag">Contact Us</span>
+          <h2>Ready to Get <span class="highlight">Clean Water?</span></h2>
+          <p>Contact us today for a free consultation and site assessment. Our team is ready to deliver your water solution.</p>
+
+          <div class="contact-cards">
+            <a href="tel:0245993803" class="contact-card phone-card">
+              <div class="contact-card-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.08 6.08l1.51-1.51a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="contact-label">Call Now</span>
+                <span class="contact-value">0245993803</span>
+              </div>
+            </a>
+            <a href="https://wa.me/233557590362" target="_blank" class="contact-card whatsapp-card">
+              <div class="contact-card-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="contact-label">WhatsApp</span>
+                <span class="contact-value">0557590362</span>
+              </div>
+            </a>
+            <div class="contact-card location-card">
+              <div class="contact-card-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="contact-label">Coverage</span>
+                <span class="contact-value">Ghana Wide</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="tagline-strip">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#FFD700"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            <span><strong>Your Water, Our Priority</strong></span>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <form class="contact-form" id="contactForm">
+            <h3>Request a Free Quote</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label>Full Name</label>
+                <input type="text" placeholder="Your full name" required />
+              </div>
+              <div class="form-group">
+                <label>Phone Number</label>
+                <input type="tel" placeholder="e.g. 024 000 0000" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Location / Region</label>
+              <input type="text" placeholder="Where is the project located?" required />
+            </div>
+            <div class="form-group">
+              <label>Service Needed</label>
+              <select required>
+                <option value="">Select a service…</option>
+                <option>Geological Survey</option>
+                <option>Borehole Drilling</option>
+                <option>Water Treatment</option>
+                <option>General Pumping</option>
+                <option>Multiple Services</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Message / Details</label>
+              <textarea rows="4" placeholder="Tell us more about your project…"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Send Request
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-wave">
+      <svg viewBox="0 0 1440 80" fill="none" preserveAspectRatio="none">
+        <path d="M0 40 C360 80 1080 0 1440 40 L1440 80 L0 80 Z" fill="#002060"/>
+      </svg>
+    </div>
+    <div class="footer-body">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <a href="#home" class="logo">
+            <div class="logo-icon logo-img-wrap footer-logo-wrap">
+              <img src="images/logo.png" alt="Frimps Drilling Company Ltd. Logo" class="site-logo-img" />
+            </div>
+            <div class="logo-text">
+              <span class="logo-name">FRIMPS</span>
+              <span class="logo-sub">DRILLING COMPANY LTD.</span>
+            </div>
+          </a>
+          <p class="footer-tagline">"Clean Water, Better Tomorrow"</p>
+          <p class="footer-desc">Ghana's trusted borehole drilling and water solution experts. Quality services, lasting results.</p>
+          <div class="footer-socials">
+            <a href="tel:0245993803" class="social-btn" aria-label="Call us">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.08 6.08l1.51-1.51a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+            </a>
+            <a href="https://wa.me/233557590362" target="_blank" class="social-btn" aria-label="WhatsApp">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h5>Services & Fleet</h5>
+          <ul>
+            <li><a href="#services">Geological Survey</a></li>
+            <li><a href="#services">Borehole Drilling</a></li>
+            <li><a href="#equipment">Drilling Rig Fleet</a></li>
+            <li><a href="#equipment">Submersible Pumps</a></li>
+            <li><a href="#services">Water Treatment</a></li>
+            <li><a href="#services">General Pumping</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>Company</h5>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#equipment">Machinery & Gear</a></li>
+            <li><a href="#why-us">Why Choose Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="tel:0245993803">📞 0245993803</a></li>
+            <li><a href="https://wa.me/233557590362">💬 0557590362 (WA)</a></li>
+            <li><span>📍 Ghana Wide Service</span></li>
+            <li><span>⏰ Mon – Sat: 6am – 6pm</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>© 2026 Frimps Drilling Company Ltd. All rights reserved. &nbsp;|&nbsp; Your Water, Our Priority</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating CTA -->
+  <div class="floating-cta" id="floatingCTA">
+    <a href="tel:0245993803" class="float-btn float-phone" title="Call Us">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.22 1.18 2 2 0 012.18 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.08 6.08l1.51-1.51a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+    </a>
+    <a href="https://wa.me/233557590362" target="_blank" class="float-btn float-whatsapp" title="WhatsApp">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+  </div>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog">
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-dialog">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Close image">&times;</button>
+      <div class="lightbox-img-wrapper">
+        <img src="" alt="" id="lightboxImg" />
+      </div>
+      <div class="lightbox-meta">
+        <span class="lightbox-tag" id="lightboxTag"></span>
+        <h3 id="lightboxTitle"></h3>
+        <p id="lightboxDesc"></p>
+        <div class="lightbox-actions">
+          <a href="" id="lightboxAction" target="_blank" class="btn btn-whatsapp">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Inquire About This
+          </a>
+          <a href="tel:0245993803" class="btn btn-outline btn-dark-outline">
+            Call Now: 0245993803
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
